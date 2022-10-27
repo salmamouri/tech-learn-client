@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
 
-import { AuthContext } from "../../Context/AuthProvider";
+import { AuthContext } from "../../Contexts/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
 import { FaGoogle } from "react-icons/fa";
 
