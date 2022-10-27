@@ -11,7 +11,12 @@ const Course = () => {
       <Row>
         <Col lg="6">
           <Card className="m-5 p-3">
-            <img src={courseData[0].image_url} alt="" />
+            <img
+              className="mx-auto"
+              style={{ width: "150px" }}
+              src={courseData[0].image_url}
+              alt=""
+            />
             <h5 className="text-center m-2">{courseData[0].course_name}</h5>
             <p className="p-3">{courseData[0].details}</p>
             <Button className="bg-primary">
@@ -26,7 +31,12 @@ const Course = () => {
         </Col>
         <Col lg="6">
           <Card className="m-5 p-3">
-            <img src={courseData[1].image_url} alt="" />
+            <img
+              className="mx-auto"
+              style={{ width: "150px" }}
+              src={courseData[1].image_url}
+              alt=""
+            />
             <h5 className="text-center m-2">{courseData[1].course_name}</h5>
             <p className="p-3">{courseData[1].details}</p>
             <Button className="bg-primary">

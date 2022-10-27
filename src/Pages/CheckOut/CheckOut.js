@@ -12,7 +12,12 @@ const CheckOut = () => {
       p-5 w-50  mx-auto"
       >
         <h5 className="text-center">{courseData.course_name}</h5>
-        <p></p>
+        <img
+          className="mx-auto mt-2 mb-3"
+          style={{ width: "100px" }}
+          src={courseData.image_url}
+          alt=""
+        />
         <Button className="w-50 mx-auto">Buy now</Button>
       </Card>
     </div>
