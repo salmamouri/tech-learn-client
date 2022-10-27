@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Topic = () => {
   const [topics, setTopics] = useState([]);
@@ -24,7 +25,7 @@ const Topic = () => {
               <Card.Body className="text-center">
                 <Card.Title>{topic.name}</Card.Title>
                 <Card.Text>{topic.details}</Card.Text>
-                <Button variant="primary">Show More</Button>
+                <Button variant="primary">Show more</Button>
               </Card.Body>
             </Card>
           </Col>
