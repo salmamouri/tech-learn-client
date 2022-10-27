@@ -44,7 +44,7 @@ export const routes = createBrowserRouter([
           fetch(`http://localhost:5000/courses/${params.id}`),
       },
       {
-        path: "/404",
+        path: "*",
         element: <NotFound></NotFound>,
       },
       {

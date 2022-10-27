@@ -10,11 +10,15 @@ const Category = () => {
       .then((data) => setCategories(data));
   }, []);
   return (
-    <div>
-      <h3>category:{categories.length}</h3>
+    <div className="mt-5">
       {categories.map((category) => (
-        <h5 key={category.id}>
-          <Link to={`/category/${category.id}`}>{category.name}</Link>
+        <h5 className="mb-3 p-2" key={category.id}>
+          <Link
+            className="text-decoration-none "
+            to={`/category/${category.id}`}
+          >
+            {category.name}
+          </Link>
         </h5>
       ))}
     </div>
