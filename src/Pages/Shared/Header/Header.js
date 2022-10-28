@@ -40,7 +40,11 @@ const Header = () => {
                   Blog
                 </Link>
               </Nav.Link>
-              <Nav.Link> FAQ</Nav.Link>
+              <Nav.Link>
+                <Link className="text-decoration-none" to="/faq">
+                  FAQ
+                </Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link>

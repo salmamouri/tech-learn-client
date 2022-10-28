@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBO54TieRECXimyKtzUyYhSyBQyqkp1cSw",
-  authDomain: "tech-learn-ceb3d.firebaseapp.com",
-  projectId: "tech-learn-ceb3d",
-  storageBucket: "tech-learn-ceb3d.appspot.com",
-  messagingSenderId: "1050911940194",
-  appId: "1:1050911940194:web:5e9801c2456e152776fb3b",
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
