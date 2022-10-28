@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <FaMoon className="mx-5 border-rounded" onClick={toggleTheme} />
+      <FaMoon className="mx-5 " onClick={toggleTheme} />
 
       <RouterProvider router={routes}></RouterProvider>
     </div>
